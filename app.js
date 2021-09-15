@@ -45,12 +45,16 @@ app.get("/get-team-id/:id", function(req, res) {
 
     let foundTeam;
 
+    // For each function that uses team as an iterator
+    // If team.id === user input id
+    // Found team is set equal to value
     teamArray.forEach(team => {
         if (team.id === +req.params.id) {
             foundTeam = team;
         }
     })
 
+    // Returns foundTeam and id
     res.json({ foundTeam, id: req.params.id })
 }) 
 
