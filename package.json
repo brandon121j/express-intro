@@ -1,0 +1,23 @@
+{
+  "name": "express-intro",
+  "version": "1.0.0",
+  "description": "Introduction to Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandon121j/express-intro.git"
+  },
+  "author": "Brandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandon121j/express-intro/issues"
+  },
+  "homepage": "https://github.com/brandon121j/express-intro#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
